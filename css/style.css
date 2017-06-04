@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d1d1d1;
+  padding-bottom: 109px;
+  font-family: Tahoma, sans-serif;
+}
+body .text-center {
+  text-align: center;
+}
+
+.landing-body {
+  width: 640px;
+  height: 1523px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 57px;
+}
+.landing-body .header {
+  width: 640px;
+  height: 150px;
+  background: url(../img/header_bg.gif);
+  background-size: cover;
+}
+.landing-body .main {
+  position: relative;
+  width: 640px;
+  height: 1373px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
