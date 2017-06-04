@@ -1,31 +1,72 @@
-    body {
-        padding: 0;
-        margin: 0;
-        background-color: #d1d1d1;
-        padding-bottom: 109px;
-        font-family: Tahoma, sans-serif;
-        .text-center {
-            text-align: center;
-        }
-    }
-    
-    .landing-body {
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d1d1d1;
+    padding-bottom: 109px;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.landing-body {
+    position: relative;
+    width: 640px;
+    height: 1523px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 57px;
+    .header {
         width: 640px;
-        height: 1523px;
-        background-color: #fff;
-        margin: auto;
-        margin-top: 57px;
-        .header {
-            width: 640px;
-            height: 150px;
-            background: url(../img/header_bg.gif);
-            background-size: cover;
-        }
-        .main {
-            position: relative;
-            width: 640px;
-            height: 1373px;
-            background-color: #fff;
-        }
-        .txt-block-greeting {}
+        height: 150px;
+        background: url(../img/header_bg.gif);
+        background-size: cover;
     }
+    .main {
+        position: absolute;
+        width: 640px;
+        height: 1373px;
+        top: 150px;
+        background-color: #fff;
+        .txt-block-greeting {
+            position: relative;
+            margin: 0 50px;
+            line-height: 23px;
+            .text-center {
+                text-align: center;
+                margin-top: 59px;
+            }
+            .first {
+                margin-top: 23px;
+            }
+            .second {
+                margin-top: 37px;
+            }
+            .third {
+                margin-top: 47px;
+            }
+            .fourth {
+                margin-top: 37px;
+            }
+        }
+        .enroll-left-big,
+        .enroll-right-big {
+            position: absolute;
+            margin-top: 37px;
+            width: 255px;
+            height: 353px;
+            img {
+                width: 255px;
+                height: 213px;
+            }
+            p {
+                margin-top: 22px;
+                line-height: 23px;
+            }
+        }
+        .enroll-left-big {
+            left: 50px;
+        }
+        .enroll-right-big {
+            right: 50px;
+        }
+    }
+}

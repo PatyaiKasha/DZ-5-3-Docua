@@ -4,12 +4,11 @@ body {
   background-color: #d1d1d1;
   padding-bottom: 109px;
   font-family: Tahoma, sans-serif;
-}
-body .text-center {
-  text-align: center;
+  font-size: 16px;
 }
 
 .landing-body {
+  position: relative;
   width: 640px;
   height: 1523px;
   background-color: #fff;
@@ -23,10 +22,55 @@ body .text-center {
   background-size: cover;
 }
 .landing-body .main {
-  position: relative;
+  position: absolute;
   width: 640px;
   height: 1373px;
+  top: 150px;
   background-color: #fff;
+}
+.landing-body .main .txt-block-greeting {
+  position: relative;
+  margin: 0 50px;
+  line-height: 23px;
+}
+.landing-body .main .txt-block-greeting .text-center {
+  text-align: center;
+  margin-top: 59px;
+}
+.landing-body .main .txt-block-greeting .first {
+  margin-top: 23px;
+}
+.landing-body .main .txt-block-greeting .second {
+  margin-top: 37px;
+}
+.landing-body .main .txt-block-greeting .third {
+  margin-top: 47px;
+}
+.landing-body .main .txt-block-greeting .fourth {
+  margin-top: 37px;
+}
+.landing-body .main .enroll-left-big,
+.landing-body .main .enroll-right-big {
+  position: absolute;
+  margin-top: 37px;
+  width: 255px;
+  height: 353px;
+}
+.landing-body .main .enroll-left-big img,
+.landing-body .main .enroll-right-big img {
+  width: 255px;
+  height: 213px;
+}
+.landing-body .main .enroll-left-big p,
+.landing-body .main .enroll-right-big p {
+  margin-top: 22px;
+  line-height: 23px;
+}
+.landing-body .main .enroll-left-big {
+  left: 50px;
+}
+.landing-body .main .enroll-right-big {
+  right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
