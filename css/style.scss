@@ -77,6 +77,9 @@ body {
                     font-weight: bold;
                     line-height: 41px;
                     bottom: 0;
+                    &:hover {
+                        background-color: #DE9A93;
+                    }
                 }
             }
             .enroll-left-big {
@@ -117,6 +120,9 @@ body {
                     font-weight: bold;
                     line-height: 41px;
                     bottom: 0;
+                    &:hover {
+                        background-color: #DE9A93;
+                    }
                 }
             }
             .enroll-left-sm {
@@ -159,6 +165,9 @@ body {
             right: 50px;
             margin-left: auto;
             margin-right: auto;
+            &:hover {
+                background-color: #DE9A93;
+            }
         }
     }
 }

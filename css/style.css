@@ -85,6 +85,10 @@ body {
   line-height: 41px;
   bottom: 0;
 }
+.landing-body .main #two-pic .enroll-left-big .btn-enroll:hover,
+.landing-body .main #two-pic .enroll-right-big .btn-enroll:hover {
+  background-color: #DE9A93;
+}
 .landing-body .main #two-pic .enroll-left-big {
   left: 50px;
 }
@@ -131,6 +135,11 @@ body {
   line-height: 41px;
   bottom: 0;
 }
+.landing-body .main #three-pic .enroll-left-sm .btn-enroll:hover,
+.landing-body .main #three-pic .enroll-mid-sm .btn-enroll:hover,
+.landing-body .main #three-pic .enroll-right-sm .btn-enroll:hover {
+  background-color: #DE9A93;
+}
 .landing-body .main #three-pic .enroll-left-sm {
   left: 50px;
 }
@@ -170,6 +179,9 @@ body {
   right: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+.landing-body .main .btn-social:hover {
+  background-color: #DE9A93;
 }
 
 .footer {
