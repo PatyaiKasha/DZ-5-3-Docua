@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: #d1d1d1;
-  padding-bottom: 109px;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
 }
@@ -10,7 +9,7 @@ body {
 .landing-body {
   position: relative;
   width: 640px;
-  height: 1523px;
+  min-height: 1650px;
   background-color: #fff;
   margin: auto;
   margin-top: 57px;
@@ -24,9 +23,10 @@ body {
 .landing-body .main {
   position: absolute;
   width: 640px;
-  height: 1373px;
+  height: 1500px;
   top: 150px;
   background-color: #fff;
+  margin-bottom: 109px;
 }
 .landing-body .main .txt-block-greeting {
   position: relative;
@@ -49,28 +49,142 @@ body {
 .landing-body .main .txt-block-greeting .fourth {
   margin-top: 37px;
 }
-.landing-body .main .enroll-left-big,
-.landing-body .main .enroll-right-big {
-  position: absolute;
+.landing-body .main #two-pic {
+  position: relative;
+  height: 353px;
+  width: 640px;
   margin-top: 37px;
+}
+.landing-body .main #two-pic .enroll-left-big,
+.landing-body .main #two-pic .enroll-right-big {
+  position: absolute;
   width: 255px;
   height: 353px;
 }
-.landing-body .main .enroll-left-big img,
-.landing-body .main .enroll-right-big img {
+.landing-body .main #two-pic .enroll-left-big img,
+.landing-body .main #two-pic .enroll-right-big img {
   width: 255px;
   height: 213px;
 }
-.landing-body .main .enroll-left-big p,
-.landing-body .main .enroll-right-big p {
+.landing-body .main #two-pic .enroll-left-big p,
+.landing-body .main #two-pic .enroll-right-big p {
   margin-top: 22px;
   line-height: 23px;
 }
-.landing-body .main .enroll-left-big {
+.landing-body .main #two-pic .enroll-left-big .btn-enroll,
+.landing-body .main #two-pic .enroll-right-big .btn-enroll {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 41px;
+  border-radius: 5px;
+  background-color: #cf5b4e;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  line-height: 41px;
+  bottom: 0;
+}
+.landing-body .main #two-pic .enroll-left-big {
   left: 50px;
 }
-.landing-body .main .enroll-right-big {
+.landing-body .main #two-pic .enroll-right-big {
   right: 50px;
+}
+.landing-body .main #three-pic {
+  position: relative;
+  height: 376px;
+  width: 640px;
+  margin-top: 30px;
+}
+.landing-body .main #three-pic .enroll-left-sm,
+.landing-body .main #three-pic .enroll-mid-sm,
+.landing-body .main #three-pic .enroll-right-sm {
+  position: absolute;
+  width: 160px;
+  height: 376px;
+}
+.landing-body .main #three-pic .enroll-left-sm img,
+.landing-body .main #three-pic .enroll-mid-sm img,
+.landing-body .main #three-pic .enroll-right-sm img {
+  width: 160px;
+  height: 213px;
+}
+.landing-body .main #three-pic .enroll-left-sm p,
+.landing-body .main #three-pic .enroll-mid-sm p,
+.landing-body .main #three-pic .enroll-right-sm p {
+  margin-top: 22px;
+  line-height: 23px;
+}
+.landing-body .main #three-pic .enroll-left-sm .btn-enroll,
+.landing-body .main #three-pic .enroll-mid-sm .btn-enroll,
+.landing-body .main #three-pic .enroll-right-sm .btn-enroll {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 41px;
+  border-radius: 5px;
+  background-color: #cf5b4e;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  line-height: 41px;
+  bottom: 0;
+}
+.landing-body .main #three-pic .enroll-left-sm {
+  left: 50px;
+}
+.landing-body .main #three-pic .enroll-mid-sm {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.landing-body .main #three-pic .enroll-right-sm {
+  right: 50px;
+}
+.landing-body .main .conclusion,
+.landing-body .main .signature {
+  margin: 0 50px;
+  line-height: 37px;
+}
+.landing-body .main .conclusion {
+  margin-top: 37px;
+}
+.landing-body .main .signature {
+  margin-top: 23px;
+}
+.landing-body .main .btn-social {
+  position: absolute;
+  display: inline-block;
+  width: 540px;
+  height: 41px;
+  border-radius: 5px;
+  background-color: #cf5b4e;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  line-height: 41px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+.footer p {
+  line-height: 80px;
+}
+.footer a {
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
